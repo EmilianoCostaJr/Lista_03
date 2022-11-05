@@ -30,7 +30,9 @@ public class EmpregadoTest {
         System.out.printf(
                 "Nome %s %s, Salario %.2f\n",empregado2.getNome(),empregado2.getSobrenome(),empregado2.getSalario());
         
+        System.out.printf("Digite novo salário para %s %s", empregado1.getNome(), empregado1.getSobrenome());
         empregado1.setSalario(input.nextDouble());
+        System.out.printf("Digite novo salário para %s %s", empregado2.getNome(), empregado2.getSobrenome());
         empregado2.setSalario(input.nextDouble());
 
         System.out.printf(
