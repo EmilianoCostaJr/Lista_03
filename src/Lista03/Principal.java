@@ -51,18 +51,18 @@ public class Principal {
                 _Exer_03_17.HealthProfileTest.inicio();
                 break;
             default: 
-                System.out.println("Nenhum exercício escolhido, escolha novamente: ");
+                System.out.println("\nNenhum exercício escolhido, escolha novamente: ");
             }
             seleciona();                
     }/*FIM Método drive()*/
 
     public static void seleciona(){
         Scanner input = new Scanner(System.in);
-        System.out.println("\n\nMenu de Escolha.\n");
-        System.out.println("Digite zero para sair.");
-        System.out.print("Ou digite o número do exercício a ser executado: ");
+        System.out.println("Menu de escolha do exercício a ser executado.\n");
+        System.out.print("Digite o número do exercício ou zero para sair: ");
 
-        int selecionado = 0;
+        int selecionado;
+        
         try{
             selecionado = input.nextInt(); 
         }catch(Exception e){
