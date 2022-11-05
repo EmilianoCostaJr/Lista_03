@@ -18,8 +18,8 @@ public class Principal {
 
     /**Procedimento principal que inicia e termina a aplicação*/
     public static void main(String[] args){
-        drive();
-    }/*FIM Método main()*/
+        _Exer_03_11.AccountTest.inicio();
+    } /*FIM Método main()*/
 
     /**Procedimento drive: Piloto que conduz a execução do aplicativo*/
     public static void drive(){
